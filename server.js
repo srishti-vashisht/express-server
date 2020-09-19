@@ -14,11 +14,11 @@ app.get("/contact",function(request,response){                            /*targ
     response.send("Connect me at :srishtivashisht52@gmail.com");
 });
 
-app.get("/about",function(request,response){
+app.get("/about",function(request,response){                              /*targetting about route*/
     response.send("About us Page");
 });
 
-app.get("/hobbies",function(request,response){
+app.get("/hobbies",function(request,response){                                                                                              
     response.send("My Hobbies");
 });
 
